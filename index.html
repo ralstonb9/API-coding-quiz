@@ -2,35 +2,65 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8"/>
-        <meta name="viewport" content="width-device-width, intial-scale=1"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <meta name="description" content="coding quiz"/>
         <title>Timed Coding Quiz</title>
-        <link rel="stylsesheet" href="./assets/css/style.css">
+        <link rel="stylesheet" href="./assets/css/style.css">
     </head>
-
-    <main>
-        <h1>Timed Coding Quiz</h1>
-        <p>Click the start button to take a timed coding quiz and win with the fastest time.</p>
-        <button type="button">Start Quiz</button>
-    </main>
-    
+     
     <body>
-        <section class="quiz-card">
-            <h2 id="question"></h2>
-            <ol>
-                <li>
-                    <button id="1stAnswer"></button>
-                </li>
-                <li>
-                    <button id="2ndAnswer"></button>
-                </li>
-                <li>
-                    <button id="3rdAnswer"></button>
-                </li>
-                <li>
-                    <button id="4thAnswer"></button>
-                </li>
-            </ol>
-        </section>
+        <div class="outer-container">
+
+            <nav class="navbar">
+                <button>Highscores</button>
+                <p>Timer: </p>
+            </nav>
+            
+            <div class="quiz-page">
+
+                <header class="intro">
+                    <h1>Timed Coding Quiz</h1>
+                    <p>Press Start to begin the quiz.</p>
+                    <button>Start</button>
+                </header>
+                
+                <main>
+
+                    <section class="quiz-card">
+                        <h2>Question here</h2>
+                        <ul>
+                            <li><button>Answer1</button></li>
+                            <li><button>Answer2</button></li>
+                            <li><button>Answer3</button></li>
+                            <li><button>Answer4</button></li>
+                        </ul>
+                    </section>
+
+                    <section class="end">
+                        <h2>Quiz Over</h2>
+                        <p>Final Score: </p>
+                        <div>
+                            <label for="">Enter Initials:</label>
+                            <input type="text" name="" id="">
+                            <button>Submit</button>
+                        </div>
+                    </section>
+
+                    <section class="highscores">
+                        <h2>Highscores:</h2>
+                        <ol>
+                            <li>initials-time</li>
+                            <li>initials-time</li>
+                            <li>initials-time</li>
+                            <li>initials-time</li>
+                        </ol>
+                        <button>Back</button>
+                        <button>Clear Scores</button>
+                    </section>
+                </main>
+
+            </div>
+            
+        </div>
     </body>
 </html>
