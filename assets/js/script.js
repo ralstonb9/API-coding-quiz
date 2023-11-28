@@ -55,3 +55,16 @@ document.querySelector("#questionChoices").onclick = function() {
     showQuestions()
 
 }
+
+// document.querySelector("#questionChoices").onclick = function() {
+//     k++;
+//     k++;
+//     showQuestions()
+// }
+
+// document.querySelector("#questionChoices").onclick = function() {
+//     k++;
+//     k++;
+
+//     showQuestions()
+// }
